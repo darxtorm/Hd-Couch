@@ -16,7 +16,7 @@ class Base(TorrentProvider):
     urls = {
         'login' : 'https://hd-space.org/index.php?page=login',
         'detail' : 'https://hd-space.org/index.php?page=torrent-details&id=%s',
-        'search' : 'https://hd-space.org/index.php?page=torrents&search=%s&active=1&options=2',
+        'search' : 'https://hd-space.org/index.php?page=torrents&search=%s&active=1',
         'home' : 'https://hd-space.org/%s',
     }
 
